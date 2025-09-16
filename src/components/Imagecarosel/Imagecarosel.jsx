@@ -8,7 +8,8 @@ const Imagecarosel = () => {
   var settings = {
     dots: true,
     infinite: true,
-    autoplay: 500,
+    autoplay: true,
+    speed: 5000,
     slidesToShow: 4,
     slidesToScroll: 2,
   };
