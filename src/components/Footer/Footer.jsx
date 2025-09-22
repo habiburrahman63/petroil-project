@@ -19,31 +19,31 @@ const Footer = () => {
       <div className="pt-[149px] pb-[170px] bg-[#1F1F1F]">
         <Container>
           <Flex className=" justify-between">
-            <div className="w-[334px]">
-              <h1 className="flex items-center gap-[5px] text-[36px] font-black text-[#FFFFFF] mb-[33px]">
+            <div className="w-[334px] m-auto md:m-0">
+              <h1 className="flex items-center justify-center md:justify-start gap-[5px] text-[36px] font-black text-[#FFFFFF] mb-[33px]">
                 <GiTeapotLeaves />
                 PETROIL
               </h1>
 
-              <p className="flex items-center gap-[5px] text-[14px] font-normal text-[#FFFFFF] mb-[15px]">
+              <p className="flex items-center justify-center md:justify-start gap-[5px] text-[14px] font-normal text-[#FFFFFF] mb-[15px]">
                 <span>
                   <MdEmail />
                 </span>
                 mail@yourcompany.com
               </p>
-              <p className="flex items-center gap-[5px] text-[14px] font-normal text-[#FFFFFF] mb-[15px]">
+              <p className="flex items-center justify-center md:justify-start gap-[5px] text-[14px] font-normal text-[#FFFFFF] mb-[15px]">
                 <span>
                   <FaPhoneAlt />
                 </span>
                 +896 120 5889 (Toll free)
               </p>
-              <p className="flex items-center gap-[5px] text-[14px] font-normal text-[#FFFFFF] mb-[34px]">
+              <p className="flex items-center justify-center md:justify-start gap-[5px] text-[14px] font-normal text-[#FFFFFF] mb-[34px]">
                 <span>
                   <FaLocationDot />
                 </span>
                 101 Baker Street, New York, USA, 12345
               </p>
-              <Flex className="gap-[12px]">
+              <Flex className="flex gap-[12px] justify-center md:justify-start">
                 <FaFacebookF className="text-[20px] font-black text-[#FFFFFF] bg-red-500 rounded-[100%] p-[4px]" />
                 <FaTwitter className="text-[20px] font-black text-[#FFFFFF] bg-red-500 rounded-[100%] p-[4px]" />
                 <FaLinkedin className="text-[20px] font-black text-[#FFFFFF] bg-red-500 rounded-[100%] p-[4px]" />
@@ -51,7 +51,7 @@ const Footer = () => {
               </Flex>
             </div>
 
-            <ul>
+            <ul className="w-[334px] m-auto md:m-0 text-center mt-[60px] md:mt-0">
               <li className="text-[16px] font-bold text-[#FFFFFF] mb-[21px]">
                 Company
               </li>
@@ -69,29 +69,29 @@ const Footer = () => {
               </li>
             </ul>
             <ul>
-              <li className="text-[16px] font-bold text-[#FFFFFF] mb-[21px]">
+              <li className="text-[16px] font-bold text-[#FFFFFF] text-center md:text-start mt-[60px] md:mt-0 mb-[21px]">
                 Others
               </li>
-              <li className="text-[16px] font-normal text-[#FFFFFF] mb-[15px]">
+              <li className="text-[16px] text-center md:text-start font-normal text-[#FFFFFF] mb-[15px]">
                 Blog
               </li>
-              <li className="text-[16px] font-normal text-[#FFFFFF] mb-[15px]">
+              <li className="text-[16px] text-center md:text-start font-normal text-[#FFFFFF] mb-[15px]">
                 Contact
               </li>
-              <li className="text-[16px] font-normal text-[#FFFFFF] mb-[15px]">
+              <li className="text-[16px] text-center md:text-start font-normal text-[#FFFFFF] mb-[15px]">
                 Terms & Conditions
               </li>
-              <li className="text-[16px] font-normal text-[#FFFFFF]">
+              <li className="text-[16px] text-center md:text-start font-normal text-[#FFFFFF]">
                 Privacy Policy
               </li>
             </ul>
 
-            <div>
+            <div className="w-[334px] m-auto md:m-0 text-center md:text-start mt-[60px] md:mt-0">
               <li className="text-[16px] font-bold text-[#FFFFFF] mb-[21px] list-none">
                 Certificate
               </li>
-              <Flex className="gap-[10px]">
-                <div className="py-[8px] px-[20px] bg-[white] rounded-[8px]">
+              <Flex className="flex gap-[10px]">
+                <div className=" py-[10px] px-[20px] bg-[white] rounded-[8px]">
                   <p className="text-[24px] font-bold text-[#008AD8] leading-none">
                     ISO 88
                   </p>
@@ -99,7 +99,7 @@ const Footer = () => {
                     Environmentally Safe
                   </p>
                 </div>
-                <div className="py-[8px] px-[20px] bg-[white] rounded-[8px]">
+                <div className="  py-[10px] px-[20px] bg-[white] rounded-[8px]">
                   <p className="text-[24px] font-bold text-[#008AD8] leading-none">
                     Liquid
                     <span className="text-green-500">Green</span>
@@ -111,7 +111,7 @@ const Footer = () => {
         </Container>
       </div>
 
-      <div className="py-[42px] bg-[#282828]">
+      <div className="py-[20px] md:py-[42px] bg-[#282828]">
         <Container>
           <p className="text-[16px] font-medium text-[#6C6C6C]">
             © Copyright 2024 by AltDesain Studio – All right reserved.
