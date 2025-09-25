@@ -77,6 +77,7 @@ const Navber = () => {
             ) : (
               ""
             )}
+
             {show ? (
               <RxCross1
                 className="text-2xl text-white cursor-pointer"
@@ -92,6 +93,7 @@ const Navber = () => {
                 }}
               />
             )}
+
             {/* <FaBars onClick={handaleclick} className="text-2xl text-white" /> */}
           </div>
         </div>

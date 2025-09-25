@@ -7,7 +7,7 @@ const Service = () => {
     <div className="mt-[28px] font-primary">
       <Flex className="justify-between items-center">
         <div className="flex justify-center md:justify-end w-auto md:w-[50%] md:mr-[150px]">
-          <div>
+          <div className="py-[70px] md:py-0">
             <h1 className="text-[40px] text-center md:text-start md:text-[64px] font-bold text-[#000000]">
               Our Services
             </h1>

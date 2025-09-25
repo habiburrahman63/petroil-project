@@ -11,10 +11,22 @@ const Portfolio = () => {
     <div className="py-[30px] md:py-[116px] ">
       <Container>
         <Flex className="flex flex-col md:flex-row items-center justify-center md:justify-between">
-          <img className="w-[265px]" src={portImg} alt="portImg" />
-          <img className="w-[265px]" src={portImg2} alt="portImg2" />
-          <img className="w-[265px]" src={portImg3} alt="portImg3" />
-          <img className="w-[265px]" src={portImg4} alt="portImg4" />
+          <img className="w-[150px] md:w-[265px]" src={portImg} alt="portImg" />
+          <img
+            className="w-[150px] md:w-[265px]"
+            src={portImg2}
+            alt="portImg2"
+          />
+          <img
+            className="w-[150px] md:w-[265px]"
+            src={portImg3}
+            alt="portImg3"
+          />
+          <img
+            className="w-[150px] md:w-[265px]"
+            src={portImg4}
+            alt="portImg4"
+          />
         </Flex>
       </Container>
     </div>
