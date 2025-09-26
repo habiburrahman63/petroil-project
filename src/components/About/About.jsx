@@ -1,6 +1,6 @@
 import React from "react";
 import Flex from "../Layout/Flex";
-import AboutImge from "../../../assets/about.png";
+import AboutImge from "../../assets/About.png";
 import Container from "../Layout/Container";
 
 const About = () => {
