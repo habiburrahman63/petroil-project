@@ -16,7 +16,7 @@ const Imagecarosel = () => {
     <Swiper
       slidesPerView={1}
       spaceBetween={10}
-      pagination={{ clickable: true }}
+      // pagination={{ clickable: true }}
       autoplay={{
         delay: 2000,
         disableOnInteraction: false,
